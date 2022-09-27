@@ -15,6 +15,9 @@ class Post{
         Console.WriteLine($"Current votes = {_votes}");
     }
 
+    public getVotes (){
+        return _votes;
+    }
     public void UpVote(){
         _votes ++;
         Console.WriteLine($"Post now has {_votes} votes");
